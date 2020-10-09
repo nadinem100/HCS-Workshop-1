@@ -1,8 +1,8 @@
 import React from "react";
-import "./About.css";
-import CutePic from "../../assets/Nadine Meister_Headshot.JPG";
+import "./Other.css";
+import CutePic from "../../assets/piano.jpg";
 
-export default function AboutScreen() {
+export default function OtherScreen() {
   return (
     <div className="screen-background">
       <div className="intro-background">
@@ -10,7 +10,7 @@ export default function AboutScreen() {
           <img src = {CutePic} className = "intro-picture" />
         </div>
         <div className="intro-item">
-          My name is Nadine Meister, I'm from Maryland.
+          I play piano too!
         </div>
       </div>
     </div>

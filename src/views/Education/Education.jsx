@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Experience.css";
+import "./Education.css";
 
 function TimeLineItem(props) {
   return (
@@ -17,7 +17,7 @@ function TimeLineItem(props) {
   );
 }
 
-export default function ExperienceScreen() {
+export default function EducationScreen() {
   const [activeTitle, setActiveTitle] = useState("");
   const [activeDescription, setActiveDescription] = useState("");
 
@@ -26,7 +26,7 @@ export default function ExperienceScreen() {
       <div className="experience-background">
         <div className="timeline-background">
           <TimeLineItem
-            title="I worked at McDonals"
+            title="I go to Harvard"
             description="description"
             setActiveTitle={setActiveTitle}
             setActiveDescription={setActiveDescription}
@@ -38,13 +38,6 @@ export default function ExperienceScreen() {
             setActiveDescription={setActiveDescription}
           />
         </div>
-        <div
-          onClick={() => {
-            setActiveTitle("my second feature");
-          }
-          }
-          click to view second feature
-          ></div>
         <div className="highlight-background">
           <h1>{activeTitle}</h1>
           <p>{activeDescription}</p>

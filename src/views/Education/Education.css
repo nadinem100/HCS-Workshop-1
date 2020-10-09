@@ -25,7 +25,7 @@
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background: crimson;
+  background: white;
 }
 
 .experience-info {
@@ -43,7 +43,7 @@ p {
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: crimson;
+  background:green;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
